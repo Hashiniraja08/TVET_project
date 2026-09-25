@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'https://tvet-project.onrender.com/api'
 const companies = [
   { name: 'TCS', color: '#2c67f2' }, { name: 'HCLTech', color: '#00a88f' },
   { name: 'Infosys', color: '#1475c9' }, { name: 'Wipro', color: '#7a36d7' },
